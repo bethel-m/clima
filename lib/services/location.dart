@@ -51,10 +51,9 @@ class Location {
       latitude = position.latitude;
       longitude = position.longitude;
     } catch (e) {
-      print("###################################################3");
-      print(e);
+      // code to run in case of an exception
     } finally {
-      print("DONE-----------------------------------------------");
+      // code to run regardless
     }
   }
 }

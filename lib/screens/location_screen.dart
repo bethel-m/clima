@@ -89,15 +89,6 @@ class _LocationScreenState extends State<LocationScreen> {
                       if (typedName != null) {
                         var weatherData =
                             await weatherModel.getCityWeather(typedName);
-                        print(
-                            "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                        print(
-                            "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                        print(
-                            "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                        print(
-                            "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                        print(weatherData);
                         updateUI(weatherData);
                       }
                     },
