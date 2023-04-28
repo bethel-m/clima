@@ -7,6 +7,7 @@ Run:
 - git clone git@github.com:bethel-m/clima.git
 - cd clima 
 - flutter pub get
+- replace the appId, with your openweather api_key
 - flutter run
 
 For help getting started with Flutter development, view the
