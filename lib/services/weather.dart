@@ -1,7 +1,8 @@
 import 'package:clima/services/networking.dart';
 import 'package:clima/services/location.dart';
 
-const appId = 'da42d10e54b6e3b4b0d87f9bfc9c436e';
+//TODO: add your api key as the appID
+const appId = 'api_key';
 const authority = 'api.openweathermap.org';
 const unencodedPath = '/data/2.5/weather';
 const units = 'metric';
